@@ -165,6 +165,7 @@ const waitForDeploymentToStart = async ({
         sha,
         environment,
       });
+      console.log(`Found ${deployments.data.length} deployments`)
 
       const deployment =
         deployments.data.length > 0 &&
